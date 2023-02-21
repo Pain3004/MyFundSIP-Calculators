@@ -45,9 +45,9 @@
             <div class="sip-calculator-amount">
               <p style="margin-top: 1.8em;">
                 <label id="amountLabel"> Loan Amount(₹)</label>
-                <input name="Amount" id="inputAmount" type="number" value="5000" oninput="showValAmount(this.value)" />
+                <input name="Amount" id="inputAmount" type="number" value="5000" step="500" oninput="showValAmount(this.value)" />
               </p>
-              <input class="amount-slider" name="realAmount" id="myAmount" type="range" value="5000" min="0" max="100000" step="0" />
+              <input class="amount-slider" name="realAmount" id="myAmount" type="range" value="5000" min="0" max="100000" step="500" />
             </div>
             <div class="sip-calculator-year">
               <p style="margin-top: 1.8em;"> Loan Interest(%) <input name="Years" id="inputRoi" type="number" value="12" oninput="showValRoi(this.value)" />
